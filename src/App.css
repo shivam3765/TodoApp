@@ -4,7 +4,7 @@
 #1A8EB0
 #003554
 */
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Marcellus:wght@300;400;700;900&display=swap');
 
 
 html{
@@ -78,7 +78,7 @@ body::-webkit-scrollbar{
 }
 .heading{
   font-size: 5rem;
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   font-weight: 900;
   color: #003554;
 }
