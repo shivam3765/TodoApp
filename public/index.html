@@ -24,10 +24,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>ToDo App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Use Background video -->
+    <div class="bgc"></div>
+    <div class="videoBox">
+      <video class="video" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+      </video>
+    </div>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +47,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
   </body>
 </html>
